@@ -8,7 +8,7 @@ const name = ref('')
 
 <template>
   <div>
-    <TestC :name>
+    <TestC :id="('1' as never)" :name="name">
       <template #event="{ row, index }">
         {{ row }}-{{ index }}
       </template>
