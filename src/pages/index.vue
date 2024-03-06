@@ -13,5 +13,8 @@ const name = ref('')
         {{ row }}-{{ index }}
       </template>
     </TestC>
+    <div class="bg-red-300">
+      tailwindcss
+    </div>
   </div>
 </template>
