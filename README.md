@@ -9,5 +9,5 @@ git clone https://github.com/warmthsea/test-volar2--defineSlots.git && cd test-v
 pnpm i && npm run dev
 ```
 #### Example File Open In Vscode(Volar >= 2.0):
- - [`/src/pages/index.vue`](https://github.com/warmthsea/test-volar2--defineSlots/blob/main/src/pages/index.vue#L12)
+ - [`/src/pages/index.vue`](https://github.com/warmthsea/test-volar2--defineSlots/blob/main/src/pages/index.vue#L13)
  - [`/src/components/TestC.vue`](https://github.com/warmthsea/test-volar2--defineSlots/blob/16afadf92d5279f2a7b11b78c85ed35f11d00122/src/components/TestC.vue#L9)
