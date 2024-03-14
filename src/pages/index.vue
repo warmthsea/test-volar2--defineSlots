@@ -8,12 +8,12 @@ const name = ref('')
 
 <template>
   <div>
-    <TestC :id="('1' as never)" :name="name">
+    <TestC :id="1" :name="name">
       <template #event="{ row, index }">
         {{ row }}-{{ index }}
       </template>
     </TestC>
-    <div class="bg-red-300">
+    <div>
       tailwindcss
     </div>
   </div>
